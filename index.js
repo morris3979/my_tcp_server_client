@@ -84,7 +84,7 @@ function menu() {
             OpenConnection();
             break;
         case "2":
-            const data = readlineSync.question("Enter data to send: ")
+            const data = readlineSync.question("Enter data to send: ");
             SendData(data);
             break;
         case "3":
