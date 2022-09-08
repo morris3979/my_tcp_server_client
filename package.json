@@ -2,13 +2,14 @@
   "name": "tcp_client",
   "version": "1.0.0",
   "description": "",
-  "main": "tcp/index.js",
+  "main": "tcp/server.js",
   "scripts": {
-    "start": "node tcp/index.js"
+    "start": "node tcp/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "readline-sync": "^1.4.10"
   }
 }
