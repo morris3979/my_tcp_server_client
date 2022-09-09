@@ -1,10 +1,10 @@
 {
-  "name": "tcp_client",
+  "name": "tcp_server_client",
   "version": "1.0.0",
   "description": "",
-  "main": "tcp/server.js",
+  "main": "tcp/client.js",
   "scripts": {
-    "start": "node tcp/server.js"
+    "start": "node tcp/client.js"
   },
   "author": "",
   "license": "ISC",
